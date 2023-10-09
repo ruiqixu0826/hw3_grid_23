@@ -133,8 +133,8 @@ nav a:focus {
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
 
-* :focus {
-    outline: 2px solid black;
+*:focus {
+    border: solid 2px black;
 }
 
 
@@ -231,8 +231,7 @@ first div in the grid  and place it in the grid. */
     /* Step 9: Write the selector/rule property to style the nav element */
     nav {
         padding: 30px 0 30px 0;
-        display: flex;
-        justify-content: flex-end;
+        text-align: right;
     }
     /* Step 10: Write the selector/rule property to update the .container class */
     .container {
